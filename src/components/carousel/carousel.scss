@@ -1,0 +1,56 @@
+.carousel-container {
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+       
+    }
+    h2, h4 {
+        position: absolute;
+        color: lightcoral;
+        left: 50px;
+    }
+
+    h2 {
+        top: 50px;
+    }
+
+    h4 {
+        top: 100px;
+    }
+    .next, .prev {
+        position: relative;
+        height: 500px;
+        margin: 0px 10px;
+        width: 21%;
+        display: inline-block;
+    }
+
+    .item {
+        position: relative;
+        height: 500px;
+        margin: 0px 10px;
+        width: 50%;
+        display: inline-block;
+    }
+
+    .left-control, .right-control {
+        width: 20px;
+        position: absolute;
+        top: 40%; 
+        border: 1px solid;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .right-control {
+        right: 10px;
+    }
+}
